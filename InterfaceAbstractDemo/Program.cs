@@ -14,7 +14,7 @@ namespace InterfaceAbstractDemo // Note: actual namespace depends on the project
             BaseCustomerManager customerManager = new NeroCustomerManager(new MernisServiceAdapter());
             customerManager.Save(new Customer {Id= 1, DateOfBirth = new DateTime(1993, 5, 12), FirstName = "Cahit", LastName = "Arslan", NationalityId = "57645844143" });
 
-
+             
 
             Console.ReadLine();
         }
